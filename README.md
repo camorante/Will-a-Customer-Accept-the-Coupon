@@ -15,15 +15,22 @@ The following notebook contains all the development of the analysis carried out.
 
 [prompt_assig5_1.ipynb](https://github.com/camorante/Will-a-Customer-Accept-the-Coupon/blob/main/practice_5_1_coupon.ipynb)
 
-#### Investigation Results and Conclusions ####
+### Investigation Results and Conclusions ###
 
 
-### Objetive: ###
+#### Objetive: ####
 
 The objective of this study is to analyze the probability of a customer accepting a promotional coupon while driving. Customer behavior in different contexts will be analyzed to determine if depending on the type of passengers carried affects the decision to accept or not a coupon. 
 
-### Analysis: ###
+#### Analysis: ####
 
 The data will be carefully analyzed to identify the factors that significantly influence the decision to accept a coupon while driving depending on the type of passenger. Plots and calculations using the Pandas library will be used to estimate the probability of coupon acceptance as a function of the variables.
 
-### Development: ###
+#### Development: ####
+
+I first check which types of coupons are the most accepted, then I check if the passengers have an impact on the final choice.
+
+- #### Analysis 1 ####
+
+First, is to verify which coupon types are the most widely accepted.
+

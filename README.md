@@ -37,7 +37,7 @@ First, is to verify which coupon types are the most widely accepted.
 
 Verification of accepted coupons by type
 
-   ![](images/plot1_1.png)
+![](images/plot1_1.png)
    
 ##### Plot 1.2 #####
 
@@ -45,14 +45,13 @@ Second, we analyze the probability of each coupon type for accepted / unaccepted
 
 probability by type = (accepted coupons grouped by type / all coupons grouped by type ) concat (unaccepted coupons grouped by type / all coupons grouped by type )
 
-   ![](images/plot1_2.png)
+![](images/plot1_2.png)
    
 ##### Conclusion 1.1 #####
 
 We observe in plot 1.1 that coffee house is the most accepted coupon type followed by cheap restaurants. This gives us an idea of the type of coupon a driver is most likely to accept, but this does not give us a definitive conclusion because there is some bias in the data as there are more coupons for coffee house and cheap restaurants than the other types.
 
 If we analyze the probability in plot 1.2 of each coupon to be accepted or not and compare it between each type of coupon we realize that 'Carry out & Take Away' and 'Restaurant < 20' are the most likely to be accepted. In the case of 'Coffee House' it does not seem as high as we thought in plot 1.1 since this type of coupon has a lower probability than the two leading ones.
-
 
 #### Analysis 2 ####
 
@@ -62,16 +61,85 @@ We analyze the probability of coupon acceptance when we segment by passenger and
 
 Coupon Probability By Coupon Type and Passanger with AceptedCoupon in (1,0)
 
-   ![](images/plot2_1.png)
+![](images/plot2_1.png)
 
 ##### Plot 2.2 #####
 
-Driver income mean based on coupon type and passanger with with AceptedCoupon = 1
+Driver income mean based on coupon type and passanger with AceptedCoupon = 1
 
-    ![](images/plot2_2.png)
+![](images/plot2_2.png)
 
 ##### Plot 2.3 #####
 
 Driver income mean based on coupon type and passanger with AceptedCoupon = 1
 
-    ![](images/plot2_3.png)
+![](images/plot2_3.png)
+
+##### Conclusion 2.1 #####
+
+We can deduce from plot 2.1 that the predominant coupons that are most likely to be accepted for all passenger types are 'Restaurant(<20)' and 'Carry out & Take away'. Something to note in the analysis is the 'Bar' coupon type which is quite rejected when the passenger is 'Kid(s)', which makes sense since for obvious reasons children cannot enter a place where alcoholic beverages are served and drivers tend to ignore them probably for that reason. Bar is the least likely coupon to be accepted for each passenger category with the exception of the 'Friend' category.
+
+If we relate the types of passengers to the average income of the driver (plot 2.2 and plot 2.3) we notice that those within the 'Alone' and 'Friend' categories are more likely to accept a coupon if they have a lower than average income, something that is not seen with the 'Kid(s)' type which is quite the opposite since it is those with a higher average income who are more likely to accept the coupon. As for 'partner' we can see here that the 'Bar' and 'Carry out & Take away' coupon types tend to have a higher probability of being accepted by those with higher than average incomes.
+
+#### Analysis 3 ####
+
+We analyze the probability of coupon acceptance when we segment by passenger and Gender.
+
+##### Plot 3.1 #####
+
+Coupon Probability By Gender and Passanger with AceptedCoupon in (1,0)
+
+![](images/plot3_1.png)
+
+##### Plot 3.2 #####
+
+Driver income mean based on gender and passanger with with AceptedCoupon = 1
+
+![](images/plot3_2.png)
+
+##### Plot 3.3 #####
+
+Driver income mean based on gender and Passanger with AceptedCoupon = 1
+
+![](images/plot3_3.png)
+
+##### Conclusion 3.1 #####
+
+In this analysis if we look at plot 3.1 we can see that both men and women have a very similar probability of acceptance between them for each of the passenger categories, only in the 'Alone' passenger category men tend to accept more than women. There is a higher probability of acceptance between men and women when the passenger type is 'Friend' and 'Partner' but tends to be lower when the passenger type is 'Alone' and 'Kid(s)'. 
+
+With respect to Plot 3.2 and Plot 3.3 we can observe that women tend to be more likely to accept the coupon in the categories 'Alone', 'Friend' and 'Kid(s)' when their income is lower than the overall average income while men do so with a slightly higher average income in these same categories. In the 'Partner' category, on the other hand, the acceptance values based on income are closer between men and women and lie more in the middle of the income values.
+
+#### Analysis 4 ####
+
+We analyze the probability of coupon acceptance when we segment by passenger and coupon expiration.
+
+##### Plot 4.1 #####
+
+Coupon Probability By Expiration and Passanger with AceptedCoupon in (1,0)
+
+![](images/plot3_3.png)
+
+
+##### Conclusion 4.1 #####
+
+Plot 4.1 shows that there is a tendency for the condcutors to accept coupons that have a longer expiration time than those that expire more quickly, which is reflected for each type of passenger. 
+
+The 2-hour coupon has a higher probability of acceptance than rejection in the 'Friends' and 'Partner' categories while the opposite is true in the 'Alone' and 'Kid(s)' categories where rejection is more pronounced than acceptance of the coupon.
+
+The 24-hour coupon in all passenger categories always tends to be more accepted than rejected.
+
+### Final Thoughts ###
+
+As a summary of what I have observed, I have the following final conclusions.
+
+1. The coupons 'Restaurant(<20)' and 'Carry out & Take away' has a higher probability of being accepted, 'Bar' is among the coupons that tend less likely to be accepted by condcutors.
+
+2. When we group the data by passenger type, the coupons with the highest probability of being accepted are 'Restaurant(<20)' and 'Carry out & Take away' for all passenger types, only the coupon 'Bar' has the highest rejection ratio vs. acceptance when the passenger is 'Kid(s)'.
+
+3. The 'Alone' and 'Friend' passenger categories are more likely to accept all types of coupons when the average income is somewhat low. In the 'Kid(s)' category, the opposite is true.
+
+4. For men and women the average acceptance rate is higher in the 'Friend' and 'Partner' passenger categories while in the 'Alone' and 'Kid(s)' categories it tends to be lower.
+
+5. Women coupon acceptors tend to have lower average incomes than men in each passenger category.
+
+6. 24-hour coupons have a higher probability of acceptance than 2-hour coupons for all passenger categories. the rejection criterion for 2-hour coupons is higher in the 'Alone' and 'Kid(s)' categories. 

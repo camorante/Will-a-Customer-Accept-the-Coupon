@@ -38,3 +38,17 @@ First, is to verify which coupon types are the most widely accepted.
 Verification of accepted coupons by type
 
    ![](images/plot1_1.png)
+   
+##### Plot 1.2 #####
+
+Second, we analyze the probability of each coupon type for accepted / unaccepted coupons
+
+probability by type = (accepted coupons grouped by type / all coupons grouped by type ) concat (unaccepted coupons grouped by type / all coupons grouped by type )
+
+   ![](images/plot1_2.png)
+   
+##### Conclusion 1.1 #####
+
+We observe in plot 1.1 that coffee house is the most accepted coupon type followed by cheap restaurants. This gives us an idea of the type of coupon a driver is most likely to accept, but this does not give us a definitive conclusion because there is some bias in the data as there are more coupons for coffee house and cheap restaurants than the other types.
+
+If we analyze the probability in plot 1.2 of each coupon to be accepted or not and compare it between each type of coupon we realize that 'Carry out & Take Away' and 'Restaurant < 20' are the most likely to be accepted. In the case of 'Coffee House' it does not seem as high as we thought in plot 1.1 since this type of coupon has a lower probability than the two leading ones.

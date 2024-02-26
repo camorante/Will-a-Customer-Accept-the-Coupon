@@ -117,7 +117,7 @@ We analyze the probability of coupon acceptance when we segment by passenger and
 
 Coupon Probability By Expiration and Passanger with AceptedCoupon in (1,0)
 
-![](images/plot3_3.png)
+![](images/plot4_1.png)
 
 
 ##### Conclusion 4.1 #####

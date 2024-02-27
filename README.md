@@ -46,12 +46,22 @@ Second, we analyze the probability of each coupon type for accepted / unaccepted
 probability by type = (accepted coupons grouped by type / all coupons grouped by type ) concat (unaccepted coupons grouped by type / all coupons grouped by type )
 
 ![](images/plot1_2.png)
-   
+
+##### Plot 1.3 #####
+
+third, I analyze the probability of each passanger type for accepted / unaccepted coupons
+
+![](images/plot1_3.png)
+
 ##### Conclusion 1.1 #####
 
 We observe in plot 1.1 that coffee house is the most accepted coupon type followed by cheap restaurants. This gives us an idea of the type of coupon a driver is most likely to accept, but this does not give us a definitive conclusion because there is some bias in the data as there are more coupons for coffee house and cheap restaurants than the other types.
 
 If we analyze the probability in plot 1.2 of each coupon to be accepted or not and compare it between each type of coupon we realize that 'Carry out & Take Away' and 'Restaurant < 20' are the most likely to be accepted. In the case of 'Coffee House' it does not seem as high as we thought in plot 1.1 since this type of coupon has a lower probability than the two leading ones.
+
+In the plot 1.3 we can see that the passenger type 'Friend(s)' takes the lead with the highest probability of acceptance of all, having in the next place the type 'Kid(s)', the case of 'Kid(s)' is interesting because the probability of acceptance is very similar to the probability of rejection while the others have some difference.
+
+There is a high probability of acceptance if the passenger is of type 'Friend(s)' and if the coupon is of type 'Carry out & Take Away'.
 
 #### Analysis 2 ####
 
@@ -134,15 +144,17 @@ As a summary of what I have observed, I have the following final conclusions.
 
 1. The coupons 'Restaurant(<20)' and 'Carry out & Take away' has a higher probability of being accepted, 'Bar' is among the coupons that tend less likely to be accepted by condcutors.
 
-2. When we group the data by passenger type, the coupons with the highest probability of being accepted are 'Restaurant(<20)' and 'Carry out & Take away' for all passenger types, only the coupon 'Bar' has the highest rejection ratio vs. acceptance when the passenger is 'Kid(s)'.
+2. The driver with a 'friend(s)' passenger type is the most likely to accept the coupon, while the 'Kid(s)' type is the least likely.
 
-3. The 'Alone' and 'Friend' passenger categories are more likely to accept all types of coupons when the average income is somewhat low. In the 'Kid(s)' category, the opposite is true.
+3. When we group the data by passenger type, the coupons with the highest probability of being accepted are 'Restaurant(<20)' and 'Carry out & Take away' for all passenger types, only the coupon 'Bar' has the highest rejection ratio vs. acceptance when the passenger is 'Kid(s)'.
 
-4. For men and women the average acceptance rate is higher in the 'Friend' and 'Partner' passenger categories while in the 'Alone' and 'Kid(s)' categories it tends to be lower.
+4. The 'Alone' and 'Friend' passenger categories are more likely to accept all types of coupons when the average income is somewhat low. In the 'Kid(s)' category, the opposite is true.
 
-5. Women coupon acceptors tend to have lower average incomes than men in each passenger category.
+5. For men and women the average acceptance rate is higher in the 'Friend' and 'Partner' passenger categories while in the 'Alone' and 'Kid(s)' categories it tends to be lower.
 
-6. 24-hour coupons have a higher probability of acceptance than 2-hour coupons for all passenger categories. the rejection criterion for 2-hour coupons is higher in the 'Alone' and 'Kid(s)' categories. 
+6. Women coupon acceptors tend to have lower average incomes than men in each passenger category.
+
+7. 24-hour coupons have a higher probability of acceptance than 2-hour coupons for all passenger categories. the rejection criterion for 2-hour coupons is higher in the 'Alone' and 'Kid(s)' categories.  
 
 ### Final Note ###
 

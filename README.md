@@ -143,3 +143,9 @@ As a summary of what I have observed, I have the following final conclusions.
 5. Women coupon acceptors tend to have lower average incomes than men in each passenger category.
 
 6. 24-hour coupons have a higher probability of acceptance than 2-hour coupons for all passenger categories. the rejection criterion for 2-hour coupons is higher in the 'Alone' and 'Kid(s)' categories. 
+
+### Final Note ###
+
+Something I have to highlight here is that there are many more ways to verify if a customer would accept the coupon, not only segmenting by passenger type but also for example to verify which types of coupons are more accepted with respect to the destination, ignoring for example the classification by passenger type, or we can choose to search if they would accept the coupon if we classify by the has_children and weather field.
+
+What should be emphasized here is that there are many ways to verify if a driver would accept the coupon, as many as there are significant variables, the important thing is to know how to choose the variables that satisfy our search and need at the moment.
